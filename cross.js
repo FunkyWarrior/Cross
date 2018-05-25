@@ -104,7 +104,7 @@ var Cross = function() {
 			setTimeout(clear, 500, btn_array);
 		}
 	};
-	//-------------------------------------------
+	//--------------------------------------------
 	document.getElementById('div').onclick = function(event) {
 		if (event.target.className == 'button') {
 			if (event.target.innerHTML == '') {
